@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="Button.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="195" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Render_game.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="602" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Input.cpp" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="45" />
+		</Cursor>
+	</File>
+	<File name="Animation.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1233" topLine="23" />
+		</Cursor>
+	</File>
+	<File name="Sound.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="294" topLine="2" />
+		</Cursor>
+	</File>
+	<File name="Sound.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="130" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Choose_Word.cpp" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2672" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Input.h" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="195" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="Animation.cpp" open="1" top="1" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1736" topLine="41" />
+		</Cursor>
+		<Folding>
+			<Collapse line="4" />
+			<Collapse line="39" />
+			<Collapse line="151" />
+			<Collapse line="170" />
+		</Folding>
+	</File>
+	<File name="Score\Update_Best_Score.cpp" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="285" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="Resources.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1218" topLine="69" />
+		</Cursor>
+	</File>
+	<File name="Game_run_process.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="19390" topLine="343" />
+		</Cursor>
+		<Folding>
+			<Collapse line="5" />
+			<Collapse line="38" />
+			<Collapse line="50" />
+			<Collapse line="60" />
+			<Collapse line="83" />
+			<Collapse line="122" />
+			<Collapse line="168" />
+			<Collapse line="209" />
+			<Collapse line="285" />
+		</Folding>
+	</File>
+	<File name="Button.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="317" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="86" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="81" />
+		</Folding>
+	</File>
+	<File name="Render_game.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="954" topLine="12" />
+		</Cursor>
+		<Folding>
+			<Collapse line="5" />
+		</Folding>
+	</File>
+	<File name="Game_run_process.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3015" topLine="77" />
+		</Cursor>
+	</File>
+	<File name="Choose_Word.h" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="306" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="Score\Update_Score.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="137" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Resources.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4009" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="2" />
+			<Collapse line="10" />
+		</Folding>
+	</File>
+	<File name="Score\Update_Score.cpp" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="130" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Score\Update_Best_Score.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="167" topLine="0" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

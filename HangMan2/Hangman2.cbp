@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Hangman2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Hangman2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Hangman2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="D:/SDL_LIB/SDL2-2.0.14/x86_64-w64-mingw32/include/SDL2" />
+			<Add directory="D:/SDL_LIB/SDL2_image-2.0.5/x86_64-w64-mingw32/include/SDL2" />
+			<Add directory="D:/SDL_LIB/SDL2_ttf-2.0.15/x86_64-w64-mingw32/include/SDL2" />
+			<Add directory="D:/SDL_LIB/SDL2_mixer-2.0.4/x86_64-w64-mingw32/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2" />
+			<Add option="-lSDL2_image" />
+			<Add option="-lSDL2_ttf" />
+			<Add option="-ISDL2_mixer" />
+			<Add library="mingw32" />
+			<Add library="SDL2main" />
+			<Add library="SDL2.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="D:/SDL_LIB/SDL2-2.0.14/x86_64-w64-mingw32/lib" />
+			<Add directory="D:/SDL_LIB/SDL2_image-2.0.5/x86_64-w64-mingw32/lib" />
+			<Add directory="D:/SDL_LIB/SDL2_ttf-2.0.15/x86_64-w64-mingw32/lib" />
+			<Add directory="D:/SDL_LIB/SDL2_mixer-2.0.4/x86_64-w64-mingw32/lib" />
+		</Linker>
+		<ExtraCommands>
+			<Add after="XCOPY $(#sdl2)\bin\*.dll $(TARGET_OUTPUT_DIR) /D /Y" />
+		</ExtraCommands>
+		<Unit filename="Animation.cpp" />
+		<Unit filename="Animation.h" />
+		<Unit filename="Button.cpp" />
+		<Unit filename="Button.h" />
+		<Unit filename="Choose_Word.cpp" />
+		<Unit filename="Choose_Word.h" />
+		<Unit filename="Game_run_process.cpp" />
+		<Unit filename="Game_run_process.h" />
+		<Unit filename="Input.cpp" />
+		<Unit filename="Input.h" />
+		<Unit filename="Render_game.cpp" />
+		<Unit filename="Render_game.h" />
+		<Unit filename="Resources.cpp" />
+		<Unit filename="Resources.h" />
+		<Unit filename="Score/Update_Best_Score.cpp" />
+		<Unit filename="Score/Update_Best_Score.h" />
+		<Unit filename="Score/Update_Score.cpp" />
+		<Unit filename="Score/Update_Score.h" />
+		<Unit filename="Sound.cpp" />
+		<Unit filename="Sound.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

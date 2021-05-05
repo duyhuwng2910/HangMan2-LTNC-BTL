@@ -1,0 +1,545 @@
+# depslib dependency file v1.0
+1620226170 source:d:\lap trinh nang cao\game project\hangman\hangman2\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<cstring>
+	<iostream>
+	<vector>
+	"Button.h"
+	"Choose_Word.h"
+	"Game_run_process.h"
+	"Score/Update_Score.h"
+	"Score/Update_Best_Score.h"
+	"Animation.h"
+	"Render_game.h"
+	"Sound.h"
+
+1618194217 source:d:\lap trinh nang cao\game project\hangman\hangman2\getting_image.cpp
+	<SDL.h>
+	<iostream>
+
+1619950766 d:\lap trinh nang cao\game project\hangman\hangman2\resources.h
+	<map>
+	<cstring>
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+
+1620196122 source:d:\lap trinh nang cao\game project\hangman\hangman2\resources.cpp
+	"Resources.h"
+
+1620097130 source:d:\lap trinh nang cao\game project\hangman\hangman2\button.cpp
+	"Button.h"
+
+1620097513 d:\lap trinh nang cao\game project\hangman\hangman2\button.h
+	<SDL.h>
+	<cstring>
+	"Resources.h"
+	"Input.h"
+	"Animation.h"
+
+1618676801 source:d:\lap trinh nang cao\game project\hangman\hangman2\button\do_bong_menu_button.cpp
+
+1620099103 source:d:\lap trinh nang cao\game project\hangman\hangman2\choose_word.cpp
+	"Choose_Word.h"
+	<cstring>
+	<fstream>
+
+1620098853 d:\lap trinh nang cao\game project\hangman\hangman2\choose_word.h
+	<iostream>
+	<cstring>
+	<vector>
+	<time.h>
+	<fstream>
+	<sstream>
+	<chrono>
+	<thread>
+	<conio.h>
+	"Resources.h"
+
+1620225245 source:d:\lap trinh nang cao\game project\hangman\hangman2\game_run_process.cpp
+	"Game_run_process.h"
+
+1620217441 d:\lap trinh nang cao\game project\hangman\hangman2\game_run_process.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<iostream>
+	<cstring>
+	<vector>
+	"time.h"
+	"Button.h"
+	"Resources.h"
+	"Score/Update_Best_Score.h"
+	"Score/Update_Score.h"
+	"Render_game.h"
+	"Choose_Word.h"
+	"Animation.h"
+	"Input.h"
+	"Sound.h"
+
+1620105285 source:d:\lap trinh nang cao\game project\hangman\hangman2\score\update_score.cpp
+	"Update_Score.h"
+
+1620033825 d:\lap trinh nang cao\game project\hangman\hangman2\score\update_score.h
+	"../Game_run_process.h"
+	"../Resources.h"
+
+1620033806 d:\lap trinh nang cao\game project\hangman\hangman2\score\update_best_score.h
+	<iostream>
+	<cstring>
+	<fstream>
+	<sstream>
+
+1619027571 source:d:\lap trinh nang cao\game project\hangman\hangman2\mouse_motion.cpp
+	"Mouse_motion.h"
+
+1619027546 d:\lap trinh nang cao\game project\hangman\hangman2\mouse_motion.h
+	<iostream>
+	"Resources.h"
+	"Button.h"
+
+1620226227 source:d:\lap trinh nang cao\game project\hangman\hangman2\animation.cpp
+	"Animation.h"
+	"Resources.h"
+
+1620225195 d:\lap trinh nang cao\game project\hangman\hangman2\animation.h
+	<SDL.h>
+	<cstring>
+	"Resources.h"
+	"Input.h"
+	"Render_game.h"
+	"Sound.h"
+
+1620062341 source:d:\lap trinh nang cao\game project\hangman\hangman2\score\update_best_score.cpp
+	"Update_Best_Score.h"
+	<fstream>
+	<sstream>
+
+1620149477 source:d:\lap trinh nang cao\game project\hangman\hangman2\input.cpp
+	"Input.h"
+	<iostream>
+
+1619937017 d:\lap trinh nang cao\game project\hangman\hangman2\input.h
+	<SDL.h>
+
+1620140041 d:\lap trinh nang cao\game project\hangman\hangman2\render_game.h
+	<iostream>
+	<cstring>
+	<vector>
+	<sstream>
+	<SDL_ttf.h>
+	"Resources.h"
+
+1620150963 source:d:\lap trinh nang cao\game project\hangman\hangman2\render_game.cpp
+	"Render_game.h"
+	<fstream>
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572889 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608572888 d:\sdl_lib\sdl2-2.0.14\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561870398 d:\sdl_lib\sdl2_image-2.0.5\x86_64-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1619628970 source:d:\lap trinh nang cao\game project\hangman\hangman2\init_and_close.cpp
+	"Init_and_close.h"
+
+1619628978 d:\lap trinh nang cao\game project\hangman\hangman2\init_and_close.h
+	<SDL.h>
+	<vector>
+	<iostream>
+	"Button.h"
+
+1547322290 d:\sdl_lib\sdl2_ttf-2.0.15\x86_64-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540998018 d:\sdl_lib\sdl2_mixer-2.0.4\x86_64-w64-mingw32\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1620224267 d:\lap trinh nang cao\game project\hangman\hangman2\sound.h
+	<SDL_mixer.h>
+	"Resources.h"
+
+1620224902 source:d:\lap trinh nang cao\game project\hangman\hangman2\sound.cpp
+	"Sound.h"
+	<iostream>
+

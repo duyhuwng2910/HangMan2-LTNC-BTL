@@ -1,0 +1,6 @@
+Xảy ra vòng lặp liên tục tại gameRunProcess:
++ Hình ảnh bị lặp lại
++ Ko nhận click
+
+Từ lần chơi thứ 2, các button khi bấm không mất đi
+
