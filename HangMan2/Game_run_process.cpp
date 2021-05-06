@@ -111,14 +111,7 @@ void gameRunProcess::typing_wrong_guess_announcement(SDL_Renderer *renderer, Res
 
     string rest_tries_string = to_string(rest_tries);
 
-    string p1,p2;
-
-    if (rest_tries >= 4) {
-        p1 = "You have guessed wrong. You have ";
-    }
-    else {
-        p1 = "You have guessed wrong. You only have ";
-    }
+    string p1 = "You have guessed wrong. You have ",p2;
 
     if (rest_tries >= 2) {
         p2 = " tries left.";
@@ -227,7 +220,7 @@ void gameRunProcess::celebration(bool win, SDL_Renderer *renderer, Resources *re
 
         chunk = Mix_LoadWAV("Sound/Celebration.wav");
 
-        Mix_PlayChannel(-1,chunk,1);
+        Mix_PlayChannel(-1,chunk,0);
 
         for (int i = 0; i < 18; i++) {
 
@@ -326,8 +319,6 @@ void gameRunProcess::displayFinalResult(bool win, SDL_Renderer *renderer, Resour
 
     if (win) {
 
-        input->Update();
-
         if (score == temp) {
 
             Temp->fade_after(renderer,resources,"WIN_REACH_RECORD");
@@ -339,6 +330,8 @@ void gameRunProcess::displayFinalResult(bool win, SDL_Renderer *renderer, Resour
             SDL_RenderPresent(renderer);
 
             SDL_RenderCopy(renderer,resources->getTexture("WIN_REACH_RECORD",0),nullptr,&shape);
+            
+            input->Update();
 
             if (Temp->inside_button(&reach_record,input)) {
 
@@ -363,6 +356,8 @@ void gameRunProcess::displayFinalResult(bool win, SDL_Renderer *renderer, Resour
             SDL_RenderPresent(renderer);
 
             SDL_RenderCopy(renderer,resources->getTexture("WIN_BREAKING_RECORD",0),nullptr,&shape);
+            
+            input->Update();
 
             if (Temp->inside_button(&breaking_record,input)) {
 
@@ -423,6 +418,8 @@ void gameRunProcess::displayFinalResult(bool win, SDL_Renderer *renderer, Resour
         SDL_RenderPresent(renderer);
 
         SDL_RenderCopy(renderer,resources->getTexture("LOSE",0),nullptr,&shape);
+        
+        input->Update();
 
         if (Temp->inside_button(&lose,input)) {
 

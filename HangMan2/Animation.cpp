@@ -76,7 +76,7 @@ void Animation::Status_check(Inputs* input, Resources* resources, SDL_Renderer *
 
             Mix_PlayChannel(-1,chunk,0);
 
-            fade_before(renderer,resources,"PLAY_do_bong");
+            fade_before(renderer,resources,"Main menu");
 
             fade_after(renderer,resources,"Level");
 
@@ -98,7 +98,7 @@ void Animation::Status_check(Inputs* input, Resources* resources, SDL_Renderer *
 
             Mix_PlayChannel(-1,chunk,0);
 
-            fade_before(renderer,resources,"HOW_TO_PLAY_do_bong");
+            fade_before(renderer,resources,"Main menu");
 
             fade_after(renderer,resources,"GUIDE");
         }

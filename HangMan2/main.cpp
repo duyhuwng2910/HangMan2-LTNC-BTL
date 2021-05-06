@@ -149,7 +149,7 @@ int main( int argc, char* args[] ) {
 
     gameState gameState = PLAY;
 
-    Game_status status = START_GAME;
+    Game_status status = LOADING;
 
     gameRunProcess game_run(&status,badGuessCount,score,&level,word,guessedWord,check_letter,input);
 
@@ -166,14 +166,26 @@ int main( int argc, char* args[] ) {
         //Game.fade_after(renderer, &resources, "Main menu");
         
         switch (status) {
+            
+            case LOADING:
+                
+                Game.fade_after(renderer,&resources, "Main menu");
+                
+                chunk = Mix_LoadWAV("Sound/Start Game.wav");
+
+                Mix_PlayChannel(-1, chunk, 0);
+
+                status = START_GAME;
 
             case START_GAME:
             case NO_MORE_PLAY:
 
-                chunk = Mix_LoadWAV("Sound/Start Game.wav");
+                SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
 
-                Mix_PlayChannel(-1, chunk, 0);
-                
+                SDL_RenderClear(renderer);
+
+                SDL_SetTextureAlphaMod(resources.getTexture("Main menu", 0), 255);
+
                 SDL_RenderCopy(renderer,resources.getTexture("Main menu",0),nullptr,&shape);
                 
                 render.renderBestScore(renderer,&resources);

@@ -17,9 +17,6 @@ public:
     // render hinh anh tuong ung voi so luot doan con lai cua nguoi choi, duoc update sau moi lan doan tu
     void renderGame(int &badGuessCount, SDL_Renderer *renderer, Resources *resources);
 
-    // dung ttf viet so diem ma nguoi choi dat duoc sau mot luot choi
-    void renderScore(long &score, SDL_Renderer *renderer, Resources *resources, bool win);
-
     // dung ttf viet so diem cao nhat tai Main menu
     void renderBestScore(SDL_Renderer *renderer, Resources *resources);
 

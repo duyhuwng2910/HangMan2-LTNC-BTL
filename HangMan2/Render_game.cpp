@@ -16,46 +16,6 @@ void Render::renderGame(int &badGuessCount, SDL_Renderer *renderer, Resources *r
 
 }
 
-// dung ttf viet so diem ma nguoi choi dat duoc sau mot luot choi
-void Render::renderScore(long &score, SDL_Renderer *renderer, Resources *resources, bool win) {
-
-    string rS_String = to_string(score);
-
-    const char *rS_result = rS_String.c_str();
-
-    SDL_Surface *rS_surface = TTF_RenderText_Solid(resources->font3,rS_result,WHITE);
-
-    SDL_Texture *rS_texture = SDL_CreateTextureFromSurface(renderer,rS_surface);
-
-    int rS_W,rS_H;
-
-    SDL_QueryTexture(rS_texture,NULL,NULL,&rS_W,&rS_H);
-
-    if (win) {
-
-        SDL_Rect rS_rect = {820,285,rS_W,rS_H};
-
-        SDL_RenderCopy(renderer,rS_texture,nullptr,&rS_rect);
-
-        SDL_FreeSurface(rS_surface);
-
-        SDL_DestroyTexture(rS_texture);
-    }
-
-    else {
-
-        SDL_Rect rS_rect = {580,520,rS_W,rS_H};
-
-        SDL_RenderCopy(renderer,rS_texture,nullptr,&rS_rect);
-
-        SDL_FreeSurface(rS_surface);
-
-        SDL_DestroyTexture(rS_texture);
-
-    }
-
-}
-
 // dung ttf viet so diem cao nhat tai Main menu
 void Render::renderBestScore(SDL_Renderer *renderer, Resources *resources) {
 

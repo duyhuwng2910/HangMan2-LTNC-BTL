@@ -51,7 +51,7 @@ const SDL_Rect breaking_record = {470,495,870,45};
 const SDL_Rect lose = {80,555,430,45};
 
 enum Game_status {
-
+    LOADING,
     START_GAME,
     PLAY_GAME_SUCCESS,
     HOW_TO_PLAY,
