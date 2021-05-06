@@ -1,10 +1,11 @@
 # HangMan2-VS
 
-Sinh viên thực hiện: Nguyễn Duy Hưng 
-MSSV: 20020108
-Lớp: QH-2020-I/CQ-I-C-B
+-Sinh viên thực hiện: Nguyễn Duy Hưng 
+-MSSV: 20020108
+-Lớp: QH-2020-I/CQ-I-C-B
 
-# Nội dung: Bài tập lớn - Game (Môn học: Lập trình nâng cao, INT2215 1) 
+# Nội dung: 
+Bài tập lớn - Game (Môn học: Lập trình nâng cao, INT2215 1) 
 
 # Tên trò chơi: Hangman2
 
