@@ -10,6 +10,10 @@ Bài tập lớn - Game (Môn học: Lập trình nâng cao, INT2215 1)
 
 # Tên trò chơi: 
 Hangman2
+Ý tưởng bài tập lớn:
+- Phát triển, cải tiến từ phiên bản console
+- Thêm nhiều level cho người chơi
+- Hướng đến việc cho mọi người luyện tập tiếng anh
 
 # Chức năng năng chính:
 
@@ -38,7 +42,9 @@ Tùy vào số lượt đoán còn lại, sẽ có những dòng text cùng vớ
 - Thông báo đoán đúng, sai
 - Hiển thị các chữ cái đã đoán
 - Cảnh báo khi số lượt đoán còn 5
-Sau mỗi lượt đoán đúng, số điểm của người chơi sẽ được hiển thị, hệ thống sẽ ghi nhận xem số điểm của người chơi có đạt được hay phá được kỉ lục (best score) của game hay không, nếu có sẽ hiện ra thông báo.
+
+## Xử lý sự kiện
+Sau mỗi lượt đoán từ, số điểm của người chơi sẽ được hiển thị, hệ thống sẽ ghi nhận xem số điểm của người chơi có đạt được hay phá được kỉ lục (best score) của game hay không, nếu có sẽ hiện ra thông báo.
 Sau đó sẽ đến với thông báo muốn chơi tiếp hay không. Nếu chọn có, người chơi sẽ được quay lại để chọn level và tiếp tục thực hiện như trên, nếu chọn không thì người chơi sẽ trở về màn hình chính.
 
 ## Điểm đạt được khi trả lời đúng 1 câu tương ứng với level
