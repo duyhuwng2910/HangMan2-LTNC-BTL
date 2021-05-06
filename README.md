@@ -1,4 +1,4 @@
-# HangMan2-VS
+# HangMan2
 
 # Introduction
 - Sinh viên thực hiện: Nguyễn Duy Hưng 
@@ -45,6 +45,7 @@ Tùy vào số lượt đoán còn lại, sẽ có những dòng text cùng vớ
 
 ## Xử lý sự kiện
 Sau mỗi lượt đoán từ, số điểm của người chơi sẽ được hiển thị, hệ thống sẽ ghi nhận xem số điểm của người chơi có đạt được hay phá được kỉ lục (best score) của game hay không, nếu có sẽ hiện ra thông báo.
+
 Sau đó sẽ đến với thông báo muốn chơi tiếp hay không. Nếu chọn có, người chơi sẽ được quay lại để chọn level và tiếp tục thực hiện như trên, nếu chọn không thì người chơi sẽ trở về màn hình chính.
 
 ## Điểm đạt được khi trả lời đúng 1 câu tương ứng với level
@@ -59,3 +60,6 @@ Sau đó sẽ đến với thông báo muốn chơi tiếp hay không. Nếu ch�
 - Âm thanh
 - Chuyển cảnh
 - Đổ bóng
+
+# Demo:
+
