@@ -6,7 +6,7 @@
 - Lớp: QH-2020-I/CQ-I-C-B
 
 # Nội dung: 
-Bài tập lớn - Game (Môn học: Lập trình nâng cao, INT2215 1) 
+Bài tập lớn : Game (Môn học: Lập trình nâng cao, INT2215 1) 
 
 # Tên trò chơi: 
 Hangman2
