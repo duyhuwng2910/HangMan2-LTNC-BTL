@@ -11,7 +11,13 @@ Render::Render(long _score) {
 
 // render hinh anh tuong ung voi so luot doan con lai cua nguoi choi, duoc update sau moi lan doan tu
 void Render::renderGame(int &badGuessCount, SDL_Renderer *renderer, Resources *resources) {
+    
+    SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
 
+    SDL_RenderClear(renderer);
+
+    SDL_SetTextureAlphaMod(resources->getTexture("Hangman2", badGuessCount + 1), 255);
+    
     SDL_RenderCopy(renderer,resources->getTexture("Hangman2",badGuessCount + 1),nullptr,&shape);
 
 }

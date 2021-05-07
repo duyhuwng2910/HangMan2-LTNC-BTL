@@ -98,6 +98,8 @@ void gameRunProcess::typing_correct_guess_announcement(SDL_Renderer *renderer, R
 
     SDL_RenderCopy(renderer,tcga_texture,nullptr,&tcga_rect);
 
+    SDL_Delay(100);
+
     SDL_FreeSurface(tcga_surface);
 
     SDL_DestroyTexture(tcga_texture);
@@ -108,6 +110,8 @@ void gameRunProcess::typing_correct_guess_announcement(SDL_Renderer *renderer, R
 void gameRunProcess::typing_wrong_guess_announcement(SDL_Renderer *renderer, Resources *resources) {
 
     int rest_tries = GUESS_NUM - badGuessCount;
+    
+    SDL_Delay(100);
 
     string rest_tries_string = to_string(rest_tries);
 
@@ -526,8 +530,6 @@ void gameRunProcess::gameRun(SDL_Renderer *renderer, Resources *resources, Anima
 
             case PLAY: {
 
-               
-
                 // khoi tao tu can doan
                 srand(time(0));
                 word = chooseWord(*level);
@@ -565,7 +567,6 @@ void gameRunProcess::gameRun(SDL_Renderer *renderer, Resources *resources, Anima
                         for (int i = 0; i < button->size(); i++) {
 
                             (*button)[i]->render_Button(renderer,resources);
-                             //cout << (*button)[i]->choosen << endl;
 
                         }
 
@@ -595,7 +596,9 @@ void gameRunProcess::gameRun(SDL_Renderer *renderer, Resources *resources, Anima
                             typing_correct_guess_announcement(renderer,resources);
 
                             guessed_letters(renderer,resources);
+                            
                             cout << "[guessedWord] = " << guessedWord << endl;
+                            
                             guessedWord = update(guessedWord,word,guess);
 
                             typing_guessed_word(renderer,resources);
@@ -700,6 +703,10 @@ void gameRunProcess::gameRun(SDL_Renderer *renderer, Resources *resources, Anima
         case STOP: {
 
             *status = NO_MORE_PLAY;
+
+            score = 0;
+
+            *gameState = PLAY;
 
             break;
 
