@@ -62,4 +62,4 @@ Sau đó sẽ đến với thông báo muốn chơi tiếp hay không. Nếu ch�
 - Đổ bóng
 
 # Demo:
-
+Mọi người có thêm xem demo game [tại đây](https://www.youtube.com/watch?v=Z3XwjhtQjno&t=2s)
