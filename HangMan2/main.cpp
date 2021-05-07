@@ -188,6 +188,8 @@ int main( int argc, char* args[] ) {
 
                 SDL_RenderCopy(renderer,resources.getTexture("Main menu",0),nullptr,&shape);
                 
+                score = 0;
+
                 render.renderBestScore(renderer,&resources);
 
                 Game.Status_check(input,&resources,renderer,status,&render,score,chunk);
