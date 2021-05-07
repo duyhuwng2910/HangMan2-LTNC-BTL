@@ -37,7 +37,7 @@ Em có sử dụng 3 file từ vựng với số lượng từ khác nhau để 
 - vocab_medium: 1500 từ
 - vocav_hard: 3000 từ
 
-## Thông báo
+## Thông báo trong game
 Tùy vào số lượt đoán còn lại, sẽ có những dòng text cùng với những âm thanh khác nhau(khi chọn đúng/sai) bao gồm:
 - Thông báo đoán đúng, sai
 - Hiển thị các chữ cái đã đoán
@@ -63,3 +63,5 @@ Sau đó sẽ đến với thông báo muốn chơi tiếp hay không. Nếu ch�
 
 # Demo:
 Mọi người có thêm xem demo game [tại đây](https://www.youtube.com/watch?v=Z3XwjhtQjno&t=2s)
+
+Mọi người có thể tải về để chơi thử và có thể cải tiến thêm, em có cung cấp [file rar](https://drive.google.com/file/d/1_d-BToGCRoKIYHP-lZZZc8kOpAq8tIVr/view?usp=sharing)
