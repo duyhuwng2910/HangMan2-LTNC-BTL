@@ -612,7 +612,7 @@ void gameRunProcess::gameRun(SDL_Renderer *renderer, Resources *resources, Anima
 
                             badGuessCount++;
 
-                            chunk = Mix_LoadWAV("Sound/Wrong guess (updated).wav");
+                            chunk = Mix_LoadWAV("Sound/Wrong guess.wav");
 
                             Mix_PlayChannel(-1,chunk,0);
 
