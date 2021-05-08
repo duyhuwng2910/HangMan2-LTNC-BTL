@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HangMan2", "HangMan2\HangMan2.vcxproj", "{23FCF621-7238-4EB5-8ADF-9822D16E1E94}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B880A199-91E0-4558-BDFD-DEAE9B40ED1A}"
+	ProjectSection(SolutionItems) = preProject
+		D:\Lap trinh nang cao\Game project\HangMan\Hangman2\Sound\Start Game (updated).wav = D:\Lap trinh nang cao\Game project\HangMan\Hangman2\Sound\Start Game (updated).wav
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
