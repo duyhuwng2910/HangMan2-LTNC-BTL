@@ -171,7 +171,7 @@ int main( int argc, char* args[] ) {
                 
                 Game.fade_after(renderer,&resources, "Main menu");
                 
-                chunk = Mix_LoadWAV("Sound/Start Game.wav");
+                chunk = Mix_LoadWAV("Sound/Start Game (updated).wav");
 
                 Mix_PlayChannel(-1, chunk, 0);
 
