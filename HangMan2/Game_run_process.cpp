@@ -205,9 +205,11 @@ void gameRunProcess::warning_announcement(SDL_Renderer *renderer, Resources *res
 
         SDL_RenderCopy(renderer,wa_texture,nullptr,&wa_rect);
 
-    }
+        chunk = Mix_LoadWAV("Sound/Warning Announcement.wav");
 
-    chunk = Mix_LoadWAV("Sound/Warning Announcement.wav");
+        Mix_PlayChannel(-1, chunk, 0);
+
+    }
 
     Mix_PlayChannel(-1, chunk, 0);
 

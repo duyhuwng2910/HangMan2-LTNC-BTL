@@ -72,13 +72,9 @@ void Animation::Status_check(Inputs* input, Resources* resources, SDL_Renderer *
 
             status = PLAY_GAME_SUCCESS;
 
-            Mix_PauseMusic();
-
             chunk = Mix_LoadWAV("Sound/Option click.wav");
 
             Mix_PlayChannel(-1,chunk,0);
-
-            Mix_ResumeMusic();
 
             fade_before(renderer,resources,"Main menu");
 
